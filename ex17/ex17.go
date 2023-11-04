@@ -27,7 +27,7 @@ func binsearch(arr []int, s int) int {
 }
 
 func main() {
-	arr := []int{1, 2, 3, 4, 6, 10, 11}
+	arr := []int{1, 2, 3, 4, 6, 10, 11} // массив должен быть упорядочен изначально
 	fmt.Println(arr)
 	fmt.Println(binsearch(arr, 6))
 }
